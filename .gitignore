@@ -69,3 +69,6 @@ fastlane/test_output
 
 # Assets folder
 unzipped
+
+# Builds
+builds
