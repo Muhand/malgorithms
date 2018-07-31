@@ -1,0 +1,4 @@
+framework module malgorithms {
+    header "malgorithms-Swift.h"
+    requires objc
+}
