@@ -1,15 +1,15 @@
 //
-//  malgorithmsTests.swift
-//  malgorithmsTests
+//  DoublyLinkedListTests.swift
+//  DoublyLinkedListTests
 //
-//  Created by Muhand Jumah on 7/27/18.
+//  Created by Muhand Jumah on 7/30/18.
 //  Copyright © 2018 Muhand Jumah. All rights reserved.
 //
 
 import XCTest
-@testable import malgorithms
+@testable import DoublyLinkedList
 
-class malgorithmsTests: XCTestCase {
+class DoublyLinkedListTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
