@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		63DDFC9BD922D1D3AEAFCFFA /* Pods_DoublyLinkedListTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E844F4E7B9DB3E12B4C97C3B /* Pods_DoublyLinkedListTests.framework */; };
+		701E33C5CAD79AC193C74D1E /* Pods_DoublyLinkedList.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BC0EECED34E564E07D16E9E /* Pods_DoublyLinkedList.framework */; };
 		B65AE75C210FA028003793EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65AE75B210FA028003793EA /* AppDelegate.swift */; };
 		B65AE75E210FA028003793EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65AE75D210FA028003793EA /* ViewController.swift */; };
 		B65AE761210FA028003793EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B65AE75F210FA028003793EA /* Main.storyboard */; };
@@ -64,6 +66,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1F1AC089CFFCB5F0E2B5EF72 /* Pods-DoublyLinkedListTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoublyLinkedListTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DoublyLinkedListTests/Pods-DoublyLinkedListTests.debug.xcconfig"; sourceTree = "<group>"; };
+		460BFECC8C00E0F5F1F99C73 /* Pods-DoublyLinkedList.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoublyLinkedList.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DoublyLinkedList/Pods-DoublyLinkedList.debug.xcconfig"; sourceTree = "<group>"; };
+		877FC21D305471C31987C4C6 /* Pods-DoublyLinkedListTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoublyLinkedListTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DoublyLinkedListTests/Pods-DoublyLinkedListTests.release.xcconfig"; sourceTree = "<group>"; };
+		9248131A84F51D9175AE3C16 /* Pods-DoublyLinkedList.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoublyLinkedList.release.xcconfig"; path = "Pods/Target Support Files/Pods-DoublyLinkedList/Pods-DoublyLinkedList.release.xcconfig"; sourceTree = "<group>"; };
+		9BC0EECED34E564E07D16E9E /* Pods_DoublyLinkedList.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DoublyLinkedList.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B65AE758210FA028003793EA /* DoublyLinkedList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoublyLinkedList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B65AE75B210FA028003793EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B65AE75D210FA028003793EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -76,6 +83,7 @@
 		B65AE772210FA029003793EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B65AE7902110094F003793EA /* malgorithms.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = malgorithms.xcodeproj; path = ../../../src/malgorithms/malgorithms/malgorithms.xcodeproj; sourceTree = "<group>"; };
 		B6ED5DB821101B0000405F68 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		E844F4E7B9DB3E12B4C97C3B /* Pods_DoublyLinkedListTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DoublyLinkedListTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +92,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B679B4B121100A690086A70F /* malgorithms.framework in Frameworks */,
+				701E33C5CAD79AC193C74D1E /* Pods_DoublyLinkedList.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,12 +100,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63DDFC9BD922D1D3AEAFCFFA /* Pods_DoublyLinkedListTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7A70E27111EE18F683E6FC23 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				460BFECC8C00E0F5F1F99C73 /* Pods-DoublyLinkedList.debug.xcconfig */,
+				9248131A84F51D9175AE3C16 /* Pods-DoublyLinkedList.release.xcconfig */,
+				1F1AC089CFFCB5F0E2B5EF72 /* Pods-DoublyLinkedListTests.debug.xcconfig */,
+				877FC21D305471C31987C4C6 /* Pods-DoublyLinkedListTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B65AE74F210FA028003793EA = {
 			isa = PBXGroup;
 			children = (
@@ -105,6 +126,7 @@
 				B65AE76F210FA029003793EA /* DoublyLinkedListTests */,
 				B65AE759210FA028003793EA /* Products */,
 				B65AE784210FA09B003793EA /* Frameworks */,
+				7A70E27111EE18F683E6FC23 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -143,6 +165,8 @@
 		B65AE784210FA09B003793EA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9BC0EECED34E564E07D16E9E /* Pods_DoublyLinkedList.framework */,
+				E844F4E7B9DB3E12B4C97C3B /* Pods_DoublyLinkedListTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -163,10 +187,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B65AE775210FA029003793EA /* Build configuration list for PBXNativeTarget "DoublyLinkedList" */;
 			buildPhases = (
+				E9BF2F9F144AE29FF205ED5D /* [CP] Check Pods Manifest.lock */,
 				B65AE754210FA028003793EA /* Sources */,
 				B65AE755210FA028003793EA /* Frameworks */,
 				B65AE756210FA028003793EA /* Resources */,
 				B679B4B521100A6A0086A70F /* Embed Frameworks */,
+				374E6130400B7E66845C0B75 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -182,6 +208,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B65AE778210FA029003793EA /* Build configuration list for PBXNativeTarget "DoublyLinkedListTests" */;
 			buildPhases = (
+				B48CD3E237796498F14E9035 /* [CP] Check Pods Manifest.lock */,
 				B65AE768210FA029003793EA /* Sources */,
 				B65AE769210FA029003793EA /* Frameworks */,
 				B65AE76A210FA029003793EA /* Resources */,
@@ -278,6 +305,71 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		374E6130400B7E66845C0B75 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DoublyLinkedList/Pods-DoublyLinkedList-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AWSCognito/AWSCognito.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCore/AWSCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSS3/AWSS3.framework",
+				"${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyAWS/SwiftyAWS.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognito.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSS3.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CryptoSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyAWS.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DoublyLinkedList/Pods-DoublyLinkedList-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B48CD3E237796498F14E9035 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DoublyLinkedListTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9BF2F9F144AE29FF205ED5D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DoublyLinkedList-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B65AE754210FA028003793EA /* Sources */ = {
@@ -448,11 +540,12 @@
 		};
 		B65AE776210FA029003793EA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 460BFECC8C00E0F5F1F99C73 /* Pods-DoublyLinkedList.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = NT8XEMLY2Z;
+				DEVELOPMENT_TEAM = 3Q76DGNCRR;
 				INFOPLIST_FILE = DoublyLinkedList/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -465,11 +558,12 @@
 		};
 		B65AE777210FA029003793EA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9248131A84F51D9175AE3C16 /* Pods-DoublyLinkedList.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = NT8XEMLY2Z;
+				DEVELOPMENT_TEAM = 3Q76DGNCRR;
 				INFOPLIST_FILE = DoublyLinkedList/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -482,6 +576,7 @@
 		};
 		B65AE779210FA029003793EA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F1AC089CFFCB5F0E2B5EF72 /* Pods-DoublyLinkedListTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -499,6 +594,7 @@
 		};
 		B65AE77A210FA029003793EA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 877FC21D305471C31987C4C6 /* Pods-DoublyLinkedListTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

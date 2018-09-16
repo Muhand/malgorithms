@@ -1,0 +1,6 @@
+framework module Pods_DoublyLinkedList {
+  umbrella header "Pods-DoublyLinkedList-umbrella.h"
+
+  export *
+  module * { export * }
+}

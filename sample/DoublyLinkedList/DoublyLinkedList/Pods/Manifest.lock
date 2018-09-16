@@ -1,0 +1,42 @@
+PODS:
+  - AWSCognito (2.6.16):
+    - AWSCore (= 2.6.16)
+  - AWSCore (2.6.16)
+  - AWSS3 (2.6.16):
+    - AWSCore (= 2.6.16)
+  - CryptoSwift (0.9.0)
+  - SwiftyAWS (0.0.1):
+    - AWSCognito
+    - AWSCore
+    - AWSS3
+    - CryptoSwift (~> 0.8)
+
+DEPENDENCIES:
+  - SwiftyAWS (from `https://github.com/apeguero24/SwiftyAWS.git`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AWSCognito
+    - AWSCore
+    - AWSS3
+    - CryptoSwift
+
+EXTERNAL SOURCES:
+  SwiftyAWS:
+    :git: https://github.com/apeguero24/SwiftyAWS.git
+
+CHECKOUT OPTIONS:
+  SwiftyAWS:
+    :commit: ba13366c2fb5fd8f1e4a258ccb5ac84e146a7bcd
+    :git: https://github.com/apeguero24/SwiftyAWS.git
+
+SPEC CHECKSUMS:
+  AWSCognito: 459ff17ab8aea9a19d57f2c9051cd124e10ef90d
+  AWSCore: 314df68684e338310409c6a3b050e28932deb6ff
+  AWSS3: 218b24bc68387f0c715fd37168f9db6cbec9d0a7
+  CryptoSwift: bca8c5b653dcc2d9734409242a070ff53bafac86
+  SwiftyAWS: a7a2f2ac5a9784b6d2885dfcd6440b98ffbdadcc
+
+PODFILE CHECKSUM: ed1bd74991d1d9012fb64a373ba77f6172f95745
+
+COCOAPODS: 1.5.0
